@@ -1,4 +1,5 @@
 class IngredientsController < ApplicationController
-  def name
+  def new
+    @ingredients =
   end
 end
